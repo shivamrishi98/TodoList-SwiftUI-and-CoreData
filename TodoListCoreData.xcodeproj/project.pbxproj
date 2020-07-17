@@ -14,6 +14,8 @@
 		964B5B2A24C1F8F400A25622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964B5B2924C1F8F400A25622 /* Assets.xcassets */; };
 		964B5B2D24C1F8F400A25622 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964B5B2C24C1F8F400A25622 /* Preview Assets.xcassets */; };
 		964B5B3024C1F8F400A25622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964B5B2E24C1F8F400A25622 /* LaunchScreen.storyboard */; };
+		964B5B3824C1F9A400A25622 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964B5B3724C1F9A400A25622 /* TodoItem.swift */; };
+		964B5B3C24C2026300A25622 /* todoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964B5B3B24C2026300A25622 /* todoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		964B5B2C24C1F8F400A25622 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		964B5B2F24C1F8F400A25622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		964B5B3124C1F8F400A25622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964B5B3724C1F9A400A25622 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		964B5B3B24C2026300A25622 /* todoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +65,13 @@
 				964B5B2024C1F8F400A25622 /* AppDelegate.swift */,
 				964B5B2224C1F8F400A25622 /* SceneDelegate.swift */,
 				964B5B2724C1F8F400A25622 /* ContentView.swift */,
+				964B5B3724C1F9A400A25622 /* TodoItem.swift */,
 				964B5B2924C1F8F400A25622 /* Assets.xcassets */,
 				964B5B2E24C1F8F400A25622 /* LaunchScreen.storyboard */,
 				964B5B3124C1F8F400A25622 /* Info.plist */,
 				964B5B2424C1F8F400A25622 /* TodoListCoreData.xcdatamodeld */,
 				964B5B2B24C1F8F400A25622 /* Preview Content */,
+				964B5B3B24C2026300A25622 /* todoItemView.swift */,
 			);
 			path = TodoListCoreData;
 			sourceTree = "<group>";
@@ -149,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964B5B3824C1F9A400A25622 /* TodoItem.swift in Sources */,
 				964B5B2124C1F8F400A25622 /* AppDelegate.swift in Sources */,
 				964B5B2624C1F8F400A25622 /* TodoListCoreData.xcdatamodeld in Sources */,
+				964B5B3C24C2026300A25622 /* todoItemView.swift in Sources */,
 				964B5B2824C1F8F400A25622 /* ContentView.swift in Sources */,
 				964B5B2324C1F8F400A25622 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,6 +301,7 @@
 				DEVELOPMENT_TEAM = NBL2DFM5E9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TodoListCoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +322,7 @@
 				DEVELOPMENT_TEAM = NBL2DFM5E9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TodoListCoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
